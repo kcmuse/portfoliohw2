@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 >
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/style2.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -11,43 +11,81 @@
     <title>Kaleb's Portfolio</title>
 </head>
 <body>
-    <header>
+    <nav class="nav">
+        <div class="max-width">
+            <div class="title"><a href="#">My<span> < Portfolio > </span></a></div> 
+            <ul class="navmenu">
+                <li><a href="#aboutme">About Me</a></li>
+                <li><a href="#work">My Work</a></li>
+                <li><a href="#">Contant</a></li>
+                <li><a href="#">Resume</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- <header>
         <h1>My Portfolio</h1>
-        <nav>
+        <nav class="nav">
           <ul>
             <li><a href="#aboutme">About Me</a></li>
             <li><a href="#work">Work</a></li>
-            <li><a href="#">Contact me</a></li>
+            <li><a href="#contact">Contact me</a></li>
             <li><a href="#">Resume</a></li>
           </ul>
         </nav>
-      </header>
-    <section class="imagebreak">
-        <img src="./assets/images/design.jpeg" width="100%" height="100px" alt="fun design">
-        <p class="bottomright">Gamer, aspiring programer, foodie, and beer snob!</p>
-    </section>  
+      </header> -->
     <main>
-        <section id="work" class="bodyinfo1 information">
-            <h1 class="h1 sideheaders">My Work</h2>
-                <img src="./assets/images/26195376_1609827952416588_8074967035315031694_n.jpeg" alt=""><img src="./assets/images/26195376_1609827952416588_8074967035315031694_n.jpeg" alt=""><img src="./assets/images/26195376_1609827952416588_8074967035315031694_n.jpeg" alt=""><img src="./assets/images/26195376_1609827952416588_8074967035315031694_n.jpeg" alt=""><img src="./assets/images/26195376_1609827952416588_8074967035315031694_n.jpeg" alt="">
-                
+        <section id="work" class="mywork">
+            <h1 class="sideheaders">My Work</h1>
+            <a href="#">
+                <section class="mainimage">
+                    <p class="image">NEW YORK CITY</p>   
+                </section>
+            </a>
+            <!-- set anchor hrefs to all these -->
+                <section class="works1">
+                    <p class="image1">Home of the Seahawks</p>
+                </section>
+                <section class="works2">
+                    <p class="image2">Seattle Skyline</p>
+                </section>
+                <section class="works3">
+                    <p class="image3">Coolest Cat</p>
+                </section>
         </section>
         <aside id="aboutme" class="aboutme">
             <section class="aboutmetext">
                 <h3>About Me</h3>
-                <img src="./assets/images/26195376_1609827952416588_8074967035315031694_n.jpeg" alt="">
+                <img class="profilepic" src="./assets/images/kchplandengland.jpeg" alt="">
                 <p>
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea, distinctio? Quo, totam non at minus, ullam deserunt eligendi tenetur optio nemo ratione sint nihil explicabo aliquid quasi provident. Maiores, voluptatem.
                     Eaque maxime, obcaecati veritatis ut magnam necessitatibus quod itaque, veniam eveniet at, totam temporibus impedit rerum! Sunt ad dolore facilis eos minus, veniam harum consequatur iste, dolorem culpa distinctio accusamus.
-                    Minima sunt explicabo eos corporis consequatur debitis architecto quae eum temporibus, dolor sed perferendis vitae iste unde aspernatur commodi ipsa quasi soluta asperiores dignissimos repellat tenetur earum quia quis. Id?
-                    Suscipit magni, eveniet eos ad harum ut alias accusantium reiciendis voluptate iusto odit in aliquid esse, dicta soluta perferendis hic. Vitae sint delectus, expedita aperiam cumque officiis qui cum dolor.
-                    Quas eveniet tenetur quaerat recusandae, consequatur placeat nesciunt nobis odit autem ratione sapiente aut aliquam veritatis, nihil minima mollitia alias tempore error non consectetur, blanditiis eius soluta. Itaque, optio dolor!
-                    Hic animi laudantium ab. Eligendi ullam praesentium iusto incidunt blanditiis natus, optio debitis nam doloribus dolorum enim odio aliquam, fuga exercitationem assumenda, itaque ab! Totam natus facilis in quisquam nulla!
-                    Nemo animi voluptates, saepe voluptatibus corporis hic beatae sit voluptas deserunt ratione nobis quisquam vero quae esse voluptatum dicta necessitatibus repudiandae? Quisquam tempora accusantium atque dolorum aperiam dolorem, non nobis!
-                    Magni, aspernatur mollitia voluptas, neque non sunt, sapiente amet sint doloribus repellendus iusto. Hic at expedita cupiditate nulla unde delectus recusandae vero doloribus assumenda rerum. Eligendi quas delectus quos facilis?
+                    Minima sunt explicabo eos corporis consequatur debitis Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum modi est mollitia deleniti, libero dignissimos temporibus qui impedit sequi laboriosam inventore fuga magnam sunt ut, corrupti perspiciatis eligendi veniam adipisci?Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, consequuntur velit. Maiores sin asdawdssada
                 </p>
             </section>
         </aside>
+       <section>
+        <form action="">
+
+            <label for="firstname">First Name</label>
+            <input type="text" id="firstname" name="firstname" placeholder="Your name..">
+        
+            <label for="lastname">Last Name</label>
+            <input type="text" id="lastname" name="lastname" placeholder="Your last name..">
+        
+            <label for="country">Country</label>
+            <select id="country" name="country">
+              <option value="australia">Australia</option>
+              <option value="canada">Canada</option>
+              <option value="usa">USA</option>
+            </select>
+        
+            <label for="subject">Subject</label>
+            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+        
+            <input type="submit" value="Submit">
+        
+          </form>
+       </section>
     </main>
     
 </body>
