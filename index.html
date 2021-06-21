@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0 >
     <link rel="stylesheet" href="assets/css/reset.css">
-    <link rel="stylesheet" href="assets/css/style2.css">
+    <link rel="stylesheet" href="assets/css/style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Viaoda+Libre&display=swap" rel="stylesheet">   
     <title>Kaleb's Portfolio</title>
@@ -17,22 +17,11 @@
             <ul class="navmenu">
                 <li><a href="#aboutme">About Me</a></li>
                 <li><a href="#work">My Work</a></li>
-                <li><a href="#">Contant</a></li>
+                <li><a href="#contact">Contact</a></li>
                 <li><a href="#">Resume</a></li>
             </ul>
         </div>
     </nav>
-    <!-- <header>
-        <h1>My Portfolio</h1>
-        <nav class="nav">
-          <ul>
-            <li><a href="#aboutme">About Me</a></li>
-            <li><a href="#work">Work</a></li>
-            <li><a href="#contact">Contact me</a></li>
-            <li><a href="#">Resume</a></li>
-          </ul>
-        </nav>
-      </header> -->
     <main>
         <section id="work" class="mywork">
             <h1 class="sideheaders">My Work</h1>
@@ -42,15 +31,21 @@
                 </section>
             </a>
             <!-- set anchor hrefs to all these -->
+            <a href="#">
                 <section class="works1">
                     <p class="image1">Home of the Seahawks</p>
                 </section>
+            </a>
+            <a href="#">
                 <section class="works2">
                     <p class="image2">Seattle Skyline</p>
                 </section>
+            </a>
+            <a href="#">
                 <section class="works3">
                     <p class="image3">Coolest Cat</p>
                 </section>
+            </a>
         </section>
         <aside id="aboutme" class="aboutme">
             <section class="aboutmetext">
@@ -59,28 +54,38 @@
                 <p>
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea, distinctio? Quo, totam non at minus, ullam deserunt eligendi tenetur optio nemo ratione sint nihil explicabo aliquid quasi provident. Maiores, voluptatem.
                     Eaque maxime, obcaecati veritatis ut magnam necessitatibus quod itaque, veniam eveniet at, totam temporibus impedit rerum! Sunt ad dolore facilis eos minus, veniam harum consequatur iste, dolorem culpa distinctio accusamus.
-                    Minima sunt explicabo eos corporis consequatur debitis Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum modi est mollitia deleniti, libero dignissimos temporibus qui impedit sequi laboriosam inventore fuga magnam sunt ut, corrupti perspiciatis eligendi veniam adipisci?Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, consequuntur velit. Maiores sin asdawdssada
+                    Minima sunt explicabo eos corporis consequatur debitis Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum modi est mollitia deleniti, libero dignissimos temporibus qui impedit sequi laboriosam inventore fuga magnam sunt ut, corrupti perspiciatis eligendi veniam adipisci?Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, consequuntur velit. Maiores sin asdawdssada. Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora fugit exercitationem illum, nostrum voluptatem recusandae quaerat tenetur autem quas, debitis perspiciatis deserunt dignissimos culpa reprehenderit aperiam dolor assumenda est cupiditate?
                 </p>
             </section>
         </aside>
-       <section>
+       <section id="contact" class="contactme">
         <form action="">
 
-            <label for="firstname">First Name</label>
+            <label for="firstname">First Name:</label>
             <input type="text" id="firstname" name="firstname" placeholder="Your name..">
         
-            <label for="lastname">Last Name</label>
+            <label for="lastname">Last Name:</label>
             <input type="text" id="lastname" name="lastname" placeholder="Your last name..">
         
-            <label for="country">Country</label>
-            <select id="country" name="country">
-              <option value="australia">Australia</option>
-              <option value="canada">Canada</option>
-              <option value="usa">USA</option>
+            <label for="sign">Astrological Sign:</label>
+            <select id="sign" name="sign">
+              <option value="Please select your sign"></option>
+              <option value="sign">Aires</option>
+              <option value="sign">Taurus</option>
+              <option value="sign">Gemini</option>
+              <option value="sign">Cancer</option>
+              <option value="sign">Leo</option>
+              <option value="sign">Virgo</option>
+              <option value="sign">Libra</option>
+              <option value="sign">Scorpiop</option>
+              <option value="sign">Sagittarius</option>
+              <option value="sign">Capricorn</option>
+              <option value="sign">Aquarius</option>
+              <option value="sign">Pieces</option>
             </select>
         
-            <label for="subject">Subject</label>
-            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+            <label for="subject">Message:</label>
+            <textarea id="subject" name="subject" placeholder="Write something.." style="height:100px" maxlength="300"></textarea>
         
             <input type="submit" value="Submit">
         

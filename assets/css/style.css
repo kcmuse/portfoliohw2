@@ -23,7 +23,8 @@ body {
     width: 100%;
     padding: 15px 0;
     background: rgb(73, 73, 73);
-font-family: 'Viaoda Libre', cursive;
+    font-family: 'Viaoda Libre', cursive;
+    white-space: nowrap;
 }
 .nav .max-width {
     display: flex;
@@ -31,7 +32,7 @@ font-family: 'Viaoda Libre', cursive;
     justify-content: space-between;
 }
 .nav .title a {
-    font-size: 35px; 
+    font-size: 5vh; 
     font-weight: 600;
     color: var(--boxcolor);
 }
@@ -42,46 +43,20 @@ font-family: 'Viaoda Libre', cursive;
 .nav .navmenu li a {
     color: var(--boxcolor);
     text-decoration: underline;
-    font-size: 20px;
+    font-size: 3vh;
     font-weight: bolder;
     margin-left: 20px;
 }
 .nav .navmenu li a:hover{
     color: var(--textcolor);
 }
-/* header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1%;
-    background-color: rgb(59, 59, 59);
-    color: var(--boxcolor);
-}
-h1 {
-    font-size: 250%;
-    font-family: 'Gloria Hallelujah', cursive;
-}
-
-.nav ul {
-    display: flex;
-    justify-content: space-between;
-    min-width: 300px;
-    font-family: 'Gloria Hallelujah', cursive;
-    list-style-type: none;
-}
-.nav a {
-    color: var(--boxcolor);
-    font-weight: bold;
-}*/
-/* .navmenu li:hover {
-    color: var(--textcolor);
-}  */
 .mywork {
     float: left;
     background: transparent;
     width: 80%;
     height: auto;
-    position:relative;
+    display: block;
+    /* position:relative; */
 }
 .mainimage {
     width: 74%;
@@ -98,7 +73,6 @@ h1 {
     border-right: 5px solid var(--textcolor);
     padding: 3px;
     color: var(--textcolor);
-    /* width: fit-content; */
     position: relative;
     background-color: var(--boxcolor);
     display: flex;
@@ -124,7 +98,6 @@ h1 {
     border: 3px solid var(--textcolor);
     padding: 3px;
     text-justify: inter-word;
-    
   }
   .works1{
     width:25%;
@@ -132,7 +105,6 @@ h1 {
     border: 5px solid var(--textcolor);
     background-image: url("../images/lumenfield.png");
     position: relative;
-    /* float: left; */
     background-size: cover;
     background-repeat: no-repeat;
     display: block;
@@ -160,7 +132,6 @@ h1 {
     border: 5px solid var(--textcolor);
     background-image: url("../images/seattlelights.jpg");
     position: relative;
-    /* float: left; */
     background-size: cover;
     background-repeat: no-repeat;
     display: block;
@@ -187,7 +158,6 @@ h1 {
     border: 5px solid var(--textcolor);
     background-image: url("../images/coolcat.jpeg");
     position: relative;
-    /* float: left; */
     background-size: cover;
     background-repeat: no-repeat;
     display: block;
@@ -246,40 +216,59 @@ h1 {
     font-size: 110%;
     font-weight: bold;
 }
-.contactme{
+.contactme{ 
     float: left;
+    width: 80%;
+    height: auto;
+    background-color: var(--boxcolor);
+    border: 3px solid var(--textcolor);
+    border-radius: 5px;
+    margin-top: 5px;
 }
 input[type=text], select, textarea {
     width: 100%;
     padding: 12px;
-    border: 1px solid #ccc; 
+    border: 3px solid var(--textcolor); 
     border-radius: 4px; 
-    margin-top: 6px; 
-    margin-bottom: 16px; 
+    margin-top: 3px; 
+    margin-bottom: 8px; 
     resize: vertical;
-    color: var(--boxcolor);
+    font-size: 1em;
+  }
+  .contactme label{
+      font-size: 2em;
+      font-family: 'Gloria Hallelujah', cursive;
+      color: var(--textcolor);
+      margin-left: 5px;
   }
   
-  /* Style the submit button with a specific background color etc */
   input[type=submit] {
-    background-color: var(--textcolor);
-    color: var(--boxcolor);
-    padding: 12px 20px;
-    border: none;
+    background-color: var(--boxcolor);
+    padding: 5px 10px;
+    border: 2px solid -var(--textcolor);
     border-radius: 4px;
     cursor: pointer;
+    color: var(--textcolor);
+    font-size: 1em;
   }
   
-  /* When moving the mouse over the submit button, add a darker green color */
   input[type=submit]:hover {
-    background-color: var(--boxcolor);
+    background-color: var(--textcolor);
+    opacity: 50%;
   }
   
-  /* Add a background color and some padding around the form */
-  .container {
-    border-radius: 5px;
-    background-color: transparent;
-    padding: 10px;
+    @media screen and (max-width: 992px) {
+        
+  }
+  
+  
+    @media screen and (max-width: 768px) {
+       
+  }
+  
+  
+    @media screen and (max-width: 576px) {
+        
   }
 
 
