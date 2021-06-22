@@ -25,6 +25,7 @@ body {
     background: rgb(73, 73, 73);
     font-family: 'Viaoda Libre', cursive;
     white-space: nowrap;
+    height: 10%;
 }
 .nav .max-width {
     display: flex;
@@ -257,20 +258,6 @@ input[type=text], select, textarea {
     opacity: 50%;
   }
   
-    @media screen and (max-width: 992px) {
-        
-  }
-  
-  
-    @media screen and (max-width: 768px) {
-       
-  }
-  
-  
-    @media screen and (max-width: 576px) {
-        
-  }
-
 
 
 
