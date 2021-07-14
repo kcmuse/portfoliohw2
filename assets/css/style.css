@@ -1,6 +1,7 @@
 * {
     box-sizing: border-box;
 }
+
 :root {
     --boxcolor: #92FFFD;
     --textcolor: #05268C;
@@ -10,14 +11,16 @@ body {
     background-image: url("../images/design.jpeg");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
+    background-size: auto;
+    /* position: relative; */
 }
+
 .max-width {
     max-width: 1300px;
     padding: 0 80px;
     margin: auto;
-}    
+}
+
 .nav {
     position: relative;
     width: 100%;
@@ -27,20 +30,24 @@ body {
     white-space: nowrap;
     height: 10%;
 }
+
 .nav .max-width {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
+
 .nav .title a {
-    font-size: 5vh; 
+    font-size: 5vh;
     font-weight: 600;
     color: var(--boxcolor);
 }
+
 .nav .navmenu li {
     list-style: none;
     display: inline-block;
-} 
+}
+
 .nav .navmenu li a {
     color: var(--boxcolor);
     text-decoration: underline;
@@ -48,9 +55,11 @@ body {
     font-weight: bolder;
     margin-left: 20px;
 }
-.nav .navmenu li a:hover{
+
+.nav .navmenu li a:hover {
     color: var(--textcolor);
 }
+
 .mywork {
     float: left;
     background: transparent;
@@ -59,17 +68,19 @@ body {
     display: block;
     /* position:relative; */
 }
+
 .mainimage {
     width: 74%;
     height: 78vh;
     border: 5px solid var(--textcolor);
-    background-image: url("../images/nycbusy.jpeg");
+    background-image: url("../images/main-page.png");
     position: relative;
     float: right;
     text-align: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
+
 .sideheaders {
     border-right: 5px solid var(--textcolor);
     padding: 3px;
@@ -80,12 +91,14 @@ body {
     margin: auto;
     justify-content: center;
 }
-.mywork h1{
+
+.mywork h1 {
     font-size: 200%;
     font-family: 'Gloria Hallelujah', cursive;
     padding: 0 5px 0 5px;
     margin: 10px 5px 10px 0;
 }
+
 .image {
     float: left;
     height: fit-content;
@@ -99,9 +112,10 @@ body {
     border: 3px solid var(--textcolor);
     padding: 3px;
     text-justify: inter-word;
-  }
-  .works1{
-    width:25%;
+}
+
+.works1 {
+    width: 25%;
     min-height: 25vh;
     border: 5px solid var(--textcolor);
     background-image: url("../images/lumenfield.png");
@@ -110,10 +124,15 @@ body {
     background-repeat: no-repeat;
     display: block;
 }
-.works1:hover, .works2:hover, .mainimage:hover, .works3:hover { 
+
+.works1:hover,
+.works2:hover,
+.mainimage:hover,
+.works3:hover {
     opacity: 50%;
 }
-  .image1 {
+
+.image1 {
     float: left;
     height: fit-content;
     width: fit-content;
@@ -126,9 +145,10 @@ body {
     border: 3px solid var(--textcolor);
     padding: 3px;
     text-justify: inter-word;
-  }
-  .works2{
-    width:25%;
+}
+
+.works2 {
+    width: 25%;
     min-height: 25vh;
     border: 5px solid var(--textcolor);
     background-image: url("../images/seattlelights.jpg");
@@ -138,7 +158,8 @@ body {
     display: block;
     margin-top: 10px;
 }
-  .image2 {
+
+.image2 {
     float: left;
     height: fit-content;
     width: fit-content;
@@ -152,9 +173,10 @@ body {
     padding: 3px;
     text-justify: inter-word;
     padding-top: 3px;
-  }
-  .works3{
-    width:25%;
+}
+
+.works3 {
+    width: 25%;
     min-height: 25vh;
     border: 5px solid var(--textcolor);
     background-image: url("../images/coolcat.jpeg");
@@ -164,6 +186,7 @@ body {
     display: block;
     margin-top: 10px;
 }
+
 .image3 {
     float: left;
     height: fit-content;
@@ -178,7 +201,8 @@ body {
     padding: 3px;
     text-justify: inter-word;
     padding-top: 3px;
-  }
+}
+
 .aboutme {
     padding: 10px;
     float: right;
@@ -190,11 +214,13 @@ body {
     flex-wrap: wrap;
     border: 10px solid var(--textcolor);
 }
-.aboutmetext { 
+
+.aboutmetext {
     margin-bottom: 10px;
     color: var(--textcolor);
 }
-.profilepic{
+
+.profilepic {
     width: 100%;
     height: auto;
 }
@@ -213,11 +239,13 @@ body {
     max-width: 200px;
     height: auto;
 }
+
 .aboutme p {
     font-size: 110%;
     font-weight: bold;
 }
-.contactme{ 
+
+.contactme {
     float: left;
     width: 80%;
     height: auto;
@@ -226,24 +254,28 @@ body {
     border-radius: 5px;
     margin-top: 5px;
 }
-input[type=text], select, textarea {
+
+input[type=text],
+select,
+textarea {
     width: 100%;
     padding: 12px;
-    border: 3px solid var(--textcolor); 
-    border-radius: 4px; 
-    margin-top: 3px; 
-    margin-bottom: 8px; 
+    border: 3px solid var(--textcolor);
+    border-radius: 4px;
+    margin-top: 3px;
+    margin-bottom: 8px;
     resize: vertical;
     font-size: 1em;
-  }
-  .contactme label{
-      font-size: 2em;
-      font-family: 'Gloria Hallelujah', cursive;
-      color: var(--textcolor);
-      margin-left: 5px;
-  }
-  
-  input[type=submit] {
+}
+
+.contactme label {
+    font-size: 2em;
+    font-family: 'Gloria Hallelujah', cursive;
+    color: var(--textcolor);
+    margin-left: 5px;
+}
+
+input[type=submit] {
     background-color: var(--boxcolor);
     padding: 5px 10px;
     border: 2px solid -var(--textcolor);
@@ -251,18 +283,30 @@ input[type=text], select, textarea {
     cursor: pointer;
     color: var(--textcolor);
     font-size: 1em;
-  }
-  
-  input[type=submit]:hover {
+}
+
+input[type=submit]:hover {
     background-color: var(--textcolor);
     opacity: 50%;
-  }
-  
+}
 
+.cstm-foot {
+    color: white;
+}
 
+.cstm-foot ul {
+    display: inline-block;
+}
 
+.cstm-foot a {
+    color: white;
+}
 
-  
+.cstm-foot a:hover {
+    color: black;
+    font-weight: bolder;
+}
 
-
-
+.cstm-margin {
+    padding-right: 20px;
+}
