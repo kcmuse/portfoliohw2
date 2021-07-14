@@ -118,7 +118,7 @@ body {
     width: 25%;
     min-height: 25vh;
     border: 5px solid var(--textcolor);
-    background-image: url("../images/lumenfield.png");
+    background-image: url("../images/codequiz.gif");
     position: relative;
     background-size: cover;
     background-repeat: no-repeat;
@@ -291,7 +291,7 @@ input[type=submit]:hover {
 }
 
 .cstm-foot {
-    color: white;
+    color: black;
 }
 
 .cstm-foot ul {
@@ -299,14 +299,18 @@ input[type=submit]:hover {
 }
 
 .cstm-foot a {
-    color: white;
+    color: black;
 }
 
 .cstm-foot a:hover {
-    color: black;
+    color: white;
     font-weight: bolder;
 }
 
 .cstm-margin {
     padding-right: 20px;
+}
+
+.cstm-btn {
+    padding-bottom: 20px;
 }
