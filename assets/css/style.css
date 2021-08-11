@@ -73,7 +73,7 @@ body {
     width: 74%;
     height: 78vh;
     border: 5px solid var(--textcolor);
-    background-image: url("../images/main-page.png");
+    background-image: url("../images/recipesrefocused.png");
     position: relative;
     float: right;
     text-align: center;
@@ -118,7 +118,7 @@ body {
     width: 25%;
     min-height: 25vh;
     border: 5px solid var(--textcolor);
-    background-image: url("../images/codequiz.gif");
+    background-image: url("../images/weatherdash.gif");
     position: relative;
     background-size: cover;
     background-repeat: no-repeat;
@@ -151,7 +151,7 @@ body {
     width: 25%;
     min-height: 25vh;
     border: 5px solid var(--textcolor);
-    background-image: url("../images/seattlelights.jpg");
+    background-image: url("../images/main-page.png");
     position: relative;
     background-size: cover;
     background-repeat: no-repeat;
@@ -179,7 +179,7 @@ body {
     width: 25%;
     min-height: 25vh;
     border: 5px solid var(--textcolor);
-    background-image: url("../images/coolcat.jpeg");
+    background-image: url("../images/codequiz.gif");
     position: relative;
     background-size: cover;
     background-repeat: no-repeat;
